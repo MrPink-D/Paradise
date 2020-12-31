@@ -1,0 +1,31 @@
+//speedo
+/obj/item/clothing/under/swimsuit/speedo
+	name = "black speedo"
+	desc = "An oldfashioned black speedo."
+	icon_state = "speedo_black"
+	item_color = "speedo_black"
+	species_restricted = list("exclude", "Grey", "Vox")
+
+/obj/item/clothing/under/swimsuit/speedo/blue
+	name = "blue speedo"
+	desc = "An oldfashioned blue speedo."
+	icon_state = "speedo_blue"
+	item_color = "speedo_blue"
+
+/obj/item/clothing/under/swimsuit/speedo/purp
+	name = "purple speedo"
+	desc = "An oldfashioned purple speedo."
+	icon_state = "speedo_purp"
+	item_color = "speedo_purp"
+
+/obj/item/clothing/under/swimsuit/speedo/green
+	name = "green speedo"
+	desc = "An oldfashioned green speedo."
+	icon_state = "speedo_green"
+	item_color = "speedo_green"
+
+/obj/item/clothing/under/swimsuit/speedo/red
+	name = "red speedo"
+	desc = "An oldfashioned red speedo."
+	icon_state = "speedo_red"
+	item_color = "speedo_red"
