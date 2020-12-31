@@ -1,4 +1,5 @@
 //speedo
+
 /obj/item/clothing/under/swimsuit/speedo
 	name = "black speedo"
 	desc = "An oldfashioned black speedo."
