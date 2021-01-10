@@ -16,6 +16,11 @@
 	new /obj/item/clothing/under/swimsuit/blue(src)
 	new /obj/item/clothing/under/swimsuit/green(src)
 	new /obj/item/clothing/under/swimsuit/purple(src)
+	new /obj/item/clothing/under/swimsuit/speedo(src)
+	new /obj/item/clothing/under/swimsuit/speedo/blue(src)
+	new /obj/item/clothing/under/swimsuit/speedo/purp(src)
+	new /obj/item/clothing/under/swimsuit/speedo/green(src)
+	new /obj/item/clothing/under/swimsuit/speedo/red(src)
 
 
 /obj/structure/closet/boxinggloves
