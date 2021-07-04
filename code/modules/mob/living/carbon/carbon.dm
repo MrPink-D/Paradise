@@ -257,17 +257,47 @@
 					"<span class='notice'>You pat [src] on the head.</span>",\
 					)
 				else
-
-					M.visible_message(\
-					"<span class='notice'>[M] gives [src] a [pick("hug","warm embrace")].</span>",\
-					"<span class='notice'>You hug [src].</span>",\
-					)
-					if(ishuman(src))
-						var/mob/living/carbon/human/H = src
-						if(H.wear_suit)
-							H.wear_suit.add_fingerprint(M)
-						else if(H.w_uniform)
-							H.w_uniform.add_fingerprint(M)
+					if(M.zone_selected == "chest")
+						M.visible_message(\
+						"<span class='notice'>[M] gives [src] a [pick("hug","warm embrace")].</span>",\
+						"<span class='notice'>[M] You hug [src].</span>",\
+						)
+					else
+						if(M.zone_selected == "r_arm")
+							M.visible_message(\
+							"<span class='notice'>[M] [src] gives you a handshake.</span>",\
+							"<span class='notice'>You shakes [src] hand.</span>",\
+							)
+						else
+							if(M.zone_selected == "l_arm")
+								M.visible_message(\
+								"<span class='notice'>[M] [src] gives you a handshake.</span>",\
+								"<span class='notice'>You shakes [src] hand.</span>",\
+								)
+							else
+								if(M.zone_selected == "l_hand")
+									M.visible_message(\
+									"<span class='notice'>[M] [src] gives you a handshake.</span>",\
+									"<span class='notice'>You shake [src] hand.</span>",\
+									)
+								else
+									if(M.zone_selected == "r_hand")
+										M.visible_message(\
+										"<span class='notice'>[M] [src] gives you a handshake.</span>",\
+										"<span class='notice'>You shakes [src] hand.</span>",\
+										)
+									else
+										if(M.zone_selected == "groin")
+											M.visible_message(\
+											"<span class='notice'>[M] [src] touches on the butt.</span>",\
+											"<span class='notice'>You touches [src] on the butt.</span>",\
+											)
+											if(ishuman(src))
+												var/mob/living/carbon/human/H = src
+												if(H.wear_suit)
+													H.wear_suit.add_fingerprint(M)
+												else if(H.w_uniform)
+													H.w_uniform.add_fingerprint(M)
 
 /**
   * Handles patting out a fire on someone.
@@ -681,19 +711,19 @@ GLOBAL_LIST_INIT(ventcrawl_machinery, list(/obj/machinery/atmospherics/unary/ven
 	user.set_machine(src)
 
 	var/dat = {"<table>
-	<tr><td><B>Left Hand:</B></td><td><A href='?src=[UID()];item=[slot_l_hand]'>[(l_hand && !(l_hand.flags&ABSTRACT)) ? html_encode(l_hand) : "<font color=grey>Empty</font>"]</A></td></tr>
-	<tr><td><B>Right Hand:</B></td><td><A href='?src=[UID()];item=[slot_r_hand]'>[(r_hand && !(r_hand.flags&ABSTRACT)) ? html_encode(r_hand) : "<font color=grey>Empty</font>"]</A></td></tr>
+	<tr><td><B>Left Hand:</B></td><td><A href='?src=[UID()];item=[slot_l_hand]'>[(l_hand && !(l_hand.flags&ABSTRACT)) ? html_encoder(l_hand) : "<font color=grey>Empty</font>"]</A></td></tr>
+	<tr><td><B>Right Hand:</B></td><td><A href='?src=[UID()];item=[slot_r_hand]'>[(r_hand && !(r_hand.flags&ABSTRACT)) ? html_encoder(r_hand) : "<font color=grey>Empty</font>"]</A></td></tr>
 	<tr><td>&nbsp;</td></tr>"}
 
-	dat += "<tr><td><B>Back:</B></td><td><A href='?src=[UID()];item=[slot_back]'>[(back && !(back.flags&ABSTRACT)) ? html_encode(back) : "<font color=grey>Empty</font>"]</A>"
+	dat += "<tr><td><B>Back:</B></td><td><A href='?src=[UID()];item=[slot_back]'>[(back && !(back.flags&ABSTRACT)) ? html_encoder(back) : "<font color=grey>Empty</font>"]</A>"
 	if(istype(wear_mask, /obj/item/clothing/mask) && istype(back, /obj/item/tank))
 		dat += "&nbsp;<A href='?src=[UID()];internal=[slot_back]'>[internal ? "Disable Internals" : "Set Internals"]</A>"
 
 	dat += "</td></tr><tr><td>&nbsp;</td></tr>"
 
-	dat += "<tr><td><B>Head:</B></td><td><A href='?src=[UID()];item=[slot_head]'>[(head && !(head.flags&ABSTRACT)) ? html_encode(head) : "<font color=grey>Empty</font>"]</A></td></tr>"
+	dat += "<tr><td><B>Head:</B></td><td><A href='?src=[UID()];item=[slot_head]'>[(head && !(head.flags&ABSTRACT)) ? html_encoder(head) : "<font color=grey>Empty</font>"]</A></td></tr>"
 
-	dat += "<tr><td><B>Mask:</B></td><td><A href='?src=[UID()];item=[slot_wear_mask]'>[(wear_mask && !(wear_mask.flags&ABSTRACT)) ? html_encode(wear_mask) : "<font color=grey>Empty</font>"]</A></td></tr>"
+	dat += "<tr><td><B>Mask:</B></td><td><A href='?src=[UID()];item=[slot_wear_mask]'>[(wear_mask && !(wear_mask.flags&ABSTRACT)) ? html_encoder(wear_mask) : "<font color=grey>Empty</font>"]</A></td></tr>"
 
 	if(istype(wear_mask, /obj/item/clothing/mask/muzzle))
 		var/obj/item/clothing/mask/muzzle/M = wear_mask
