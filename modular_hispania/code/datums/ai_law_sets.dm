@@ -11,7 +11,6 @@
 		ignoradas++
 		sort_laws()		//sino no podemos saber el lenght
 		if(ignoradas == sorted_laws.len)
-			to_chat(world,"fin en true")
 			fin = TRUE
 	return FALSE
 
