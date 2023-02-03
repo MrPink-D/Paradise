@@ -2635,6 +2635,7 @@
 #include "modular_hispania\code\__DEFINES\wires.dm"
 #include "modular_hispania\code\__HELPERS\funciones_hispa.dm"
 #include "modular_hispania\code\_globalvars\lists\mobs.dm"
+#include "modular_hispania\code\datums\ai_law_sets.dm"
 #include "modular_hispania\code\datums\datumvars.dm"
 #include "modular_hispania\code\datums\supplypacks.dm"
 #include "modular_hispania\code\datums\wires\clothelate.dm"
