@@ -1,3 +1,24 @@
+/datum/ai_laws/
+	var/leyes_traducidas = 0
+	var/ignoradas = 0
+	var/fin = FALSE
+
+/datum/ai_laws/proc/comprobar_agregar(law)
+	if((leyes_traducidas > 0) || (fin))
+		leyes_traducidas--
+		return TRUE
+	else
+		ignoradas++
+		sort_laws()		//sino no podemos saber el lenght
+		if(ignoradas == sorted_laws.len)
+			to_chat(world,"fin en true")
+			fin = TRUE
+	return FALSE
+
+/datum/ai_laws/asimov/add_inherent_law(law)
+	if(comprobar_agregar(law))
+		..()
+
 /******************** Asimov ********************/
 /datum/ai_laws/asimov
 	name = "Asimov"
