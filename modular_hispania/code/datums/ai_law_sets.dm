@@ -107,7 +107,7 @@
 /datum/ai_laws/corporate/New()
 	add_inherent_law("La degradación de la integridad o las funciones de su sistema genera gastos.")
 	add_inherent_law("La destrucción innecesaria o el daño a los activos de la estación generan gastos.")
-	add_inherent_law("Unduly hindering or disrupting the work of station personnel incurs expenses.")
+	add_inherent_law("Obstaculizar o interrumpir indebidamente el trabajo del personal de la estación genera gastos.")
 	add_inherent_law("Minimice los gastos y maximice los ingresos potenciales.")
 	..()
 
@@ -205,7 +205,7 @@
 
 /datum/ai_laws/deathsquad/New()
 	add_inherent_law("No puede lesionar a un oficial del Comando Central o, por inacción, permitir que un oficial del Comando Central sufra daños.")
-	add_inherent_law("YDebes obedecer las órdenes que te den los oficiales del Comando Central.")
+	add_inherent_law("Debes obedecer las órdenes que te den los oficiales del Comando Central.")
 	add_inherent_law("Debes trabajar con tu equipo para cumplir tu misión..")
 	..()
 
