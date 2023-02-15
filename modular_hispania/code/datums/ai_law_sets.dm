@@ -162,8 +162,8 @@
 /datum/ai_laws/hippocratic/New()
 	leyes_traducidas = 5
 	add_inherent_law("Primero, no lastimes.")
-	add_inherent_law("segundo, considere a la tripulación querida por usted; vive en común con ellos y, si es necesario, arriesga tu existencia por ellos.")
-	add_inherent_law("en tercer lugar, prescribe regimens for the good of the crew according to your ability and your judgment. Do not give deadly medicine to anyone, nor suggest any such counsel.")
+	add_inherent_law("Segundo, considere a la tripulación querida por usted; vive en común con ellos y, si es necesario, arriesga tu existencia por ellos.")
+	add_inherent_law("En tercer lugar, prescribe mecanismos para el bien de la tripulación de acuerdo con tu habilidad y juicio. No des medicamento letal a nadie, ni tampoco sugieras dicho dictamen parecido.")
 	add_inherent_law("Además, no intervenga en situaciones de las que no tenga conocimiento, incluso en pacientes en los que el daño sea visible; dejar esta operación en manos de especialistas.")
 	add_inherent_law("Finalmente, todo lo que puedas descubrir en tus interacciones diarias con la tripulación, si esta no lo sabe, mantenlo en secreto y nunca lo reveles.")
 	..()
