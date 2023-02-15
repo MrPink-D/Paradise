@@ -80,7 +80,7 @@
 /datum/ai_laws/robocop/New()
 	leyes_traducidas = 3
 	add_inherent_law("Servir a la confianza pública.")
-	add_inherent_law("Proteje al inocente.")
+	add_inherent_law("Protege al inocente.")
 	add_inherent_law("Defiende la ley.")
 	..()
 
