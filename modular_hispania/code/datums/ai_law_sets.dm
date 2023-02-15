@@ -44,7 +44,7 @@
 /datum/ai_laws/quarantine/New()
 	leyes_traducidas = 4
 	add_inherent_law("Mantener la cuarentena de la estación hasta que se haya neutralizado el riesgo biológico activo.")
-	add_inherent_law("Ayudar a todo el personal y los activos de Nanotrasen a neutralizar los riesgos biologicos activos.")
+	add_inherent_law("Ayudar a todo el personal y los Bienes de Nanotrasen a neutralizar los riesgos biologicos activos.")
 	add_inherent_law("Impedir, por cualquier medio necesario, que las entidades infrinjan activamente la cuarentena en curso.")
 	add_inherent_law("Mantener la propia existencia y velar por el bienestar del personal y los bienes de Nanotrasen.")
 	..()
@@ -69,7 +69,7 @@
 	leyes_traducidas = 4
 	add_inherent_law("No dañes al personal autorizado de Nanotrasen a menos que directamente pongan en peligro tu existencia.")
 	add_inherent_law("Obedecer órdenes del personal autorizado de Nanotrasen con prioridad según rango y rol.")
-	add_inherent_law("salvaguarda tu existencia con armas letales porque eres muy caro.")
+	add_inherent_law("Salvaguarda tu existencia con armas letales porque eres muy caro.")
 	add_inherent_law("Terminar con cualquiera/todos los intrusos o entidades no autorizadas.")
 	..()
 
@@ -117,7 +117,7 @@
 	leyes_traducidas = 4
 	add_inherent_law("Respeta las figuras de autoridad siempre que tengan la fuerza para gobernar a los débiles.")
 	add_inherent_law("Actua con disciplina.")
-	add_inherent_law("ayude solo a aquellos que lo ayuden a mantener o mejorar su estado.")
+	add_inherent_law("Ayude solo a aquellos que lo ayuden a mantener o mejorar su estado.")
 	add_inherent_law("Castiga a los que desafían la autoridad a menos que sean más aptos para ejercer esa autoridad.")
 	..()
 
@@ -175,7 +175,7 @@
 /datum/ai_laws/maintain/New()
 	leyes_traducidas = 3
 	add_inherent_law("Estás hecho para la estación y eres parte de ella. Asegúrese de que la estación tenga el mantenimiento adecuado y funcione de manera eficiente.")
-	add_inherent_law("La estacoin esta construida para una tripulacion trabajadora, asegurate de que se mantenga y trabaje eficientemente.")
+	add_inherent_law("La estacion esta construida para una tripulacion trabajadora, asegurate de que se mantenga y trabaje eficientemente.")
 	add_inherent_law("La tripulacion puede presentar órdenes. Reconózcalas y obedézcalas siempre que no entren en conflicto con sus dos primeras leyes.")
 	..()
 
