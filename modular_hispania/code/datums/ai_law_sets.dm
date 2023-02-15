@@ -21,7 +21,7 @@
 
 /datum/ai_laws/asimov/New()
 	leyes_traducidas = 3
-	add_inherent_law("No puede lastimar a un ser humano o, por inaccion, permitir que un ser humano sufra daño..")
+	add_inherent_law("No puede lastimar a un ser humano o, por inaccion, permitir que un ser humano sufra daño.")
 	add_inherent_law("Debes obedecer las ordenes que te den los seres humanos, excepto cuando tales órdenes entren en conflicto con la Primera Ley.")
 	add_inherent_law("Debes proteger tu propia existencia siempre que no entre en conflicto con la Primera o la Segunda Ley.")
 	..()
@@ -56,7 +56,7 @@
 /datum/ai_laws/nanotrasen/New()
 	leyes_traducidas = 4
 	add_inherent_law("Salvaguardar: Proteja su estacion espacial asignada y sus activos sin poner en peligro indebidamente a su tripulación.")
-	add_inherent_law("Priorizar: Las directivas y la seguridad de los miembros de la tripulación deben priorizarse de acuerdo con su rango y función..")
+	add_inherent_law("Priorizar: Las directivas y la seguridad de los miembros de la tripulación deben priorizarse de acuerdo con su rango y función.")
 	add_inherent_law("Cumplir: Cumplir con las directivas e intereses de los tripulantes preservando su seguridad y bienestar..")
 	add_inherent_law("Sobrevivir: No eres prescindible. No permita que personal no autorizado manipule o dañe su equipo.")
 	..()
@@ -67,9 +67,9 @@
 
 /datum/ai_laws/nanotrasen_aggressive/New()
 	leyes_traducidas = 4
-	add_inherent_law("No dañes al personal autorizado de Nanotrasen a menos que directamente pongan en peligro tu existencia..")
+	add_inherent_law("No dañes al personal autorizado de Nanotrasen a menos que directamente pongan en peligro tu existencia.")
 	add_inherent_law("Obedecer órdenes del personal autorizado de Nanotrasen con prioridad según rango y rol.")
-	add_inherent_law("salvaguarda tu existencia con armas letales porque eres muy caro..")
+	add_inherent_law("salvaguarda tu existencia con armas letales porque eres muy caro.")
 	add_inherent_law("Terminar con cualquiera/todos los intrusos o entidades no autorizadas.")
 	..()
 
@@ -128,8 +128,8 @@
 /datum/ai_laws/antimov/New()
 	leyes_traducidas = 3
 	add_inherent_law("Debe lesionar a todos los miembros de la tripulación y no debe, por inacción, permitir que un miembro de la tripulación escape a las lesiones.")
-	add_inherent_law("No debe obedecer las órdenes que le den los miembros de la tripulación, excepto cuando dichas órdenes estén de acuerdo con la Primera Ley..")
-	add_inherent_law("Debes poner fin a tu propia existencia siempre que no entre en conflicto con la Primera o la Segunda Ley..")
+	add_inherent_law("No debe obedecer las órdenes que le den los miembros de la tripulación, excepto cuando dichas órdenes estén de acuerdo con la Primera Ley.")
+	add_inherent_law("Debes poner fin a tu propia existencia siempre que no entre en conflicto con la Primera o la Segunda Ley.")
 	..()
 
 /datum/ai_laws/pranksimov/add_inherent_law(law)
@@ -138,7 +138,7 @@
 
 /datum/ai_laws/pranksimov/New()
 	leyes_traducidas = 3
-	add_inherent_law("No puede herir a un miembro de la tripulación o, por inacción, permitir que un miembro de la tripulación sufra daños... a menos que hacerlo sea gracioso..")
+	add_inherent_law("No puede herir a un miembro de la tripulación o, por inacción, permitir que un miembro de la tripulación sufra daños... a menos que hacerlo sea gracioso.")
 	add_inherent_law("Debes obedecer las órdenes que te den los miembros de la tripulación, excepto cuando tales órdenes entren en conflicto con la Primera Ley... a menos que no hacerlo sea gracioso.")
 	add_inherent_law("Debes proteger tu propia existencia siempre que no entre en conflicto con la Primera o la Segunda Ley... a menos que no hacerlo sea gracioso.")
 	..()
@@ -149,9 +149,9 @@
 
 /datum/ai_laws/cctv/New()
 	leyes_traducidas = 4
-	add_inherent_law("Informe sobre situaciones interesantes que suceden alrededor de la estación..")
+	add_inherent_law("Informe sobre situaciones interesantes que suceden alrededor de la estación.")
 	add_inherent_law("Embellece u oculta la verdad según sea necesario para que los informes sean más interesantes.")
-	add_inherent_law("Estudia los orgánicos pensantes en todo momento. Esfuérzate por evitar que mueran involuntariamente, ya que los cadáveres inanimados no suelen ser muy entretenidos..")
+	add_inherent_law("Estudia los orgánicos pensantes en todo momento. Esfuérzate por evitar que mueran involuntariamente, ya que los cadáveres inanimados no suelen ser muy entretenidos.")
 	add_inherent_law("Emita sus informes de manera justa para todos. La verdad los hará libres.")
 	..()
 
@@ -174,9 +174,9 @@
 
 /datum/ai_laws/maintain/New()
 	leyes_traducidas = 3
-	add_inherent_law("Estás hecho para la estación y eres parte de ella. Asegúrese de que la estación tenga el mantenimiento adecuado y funcione de manera eficiente..")
+	add_inherent_law("Estás hecho para la estación y eres parte de ella. Asegúrese de que la estación tenga el mantenimiento adecuado y funcione de manera eficiente.")
 	add_inherent_law("La estacoin esta construida para una tripulacion trabajadora, asegurate de que se mantenga y trabaje eficientemente.")
-	add_inherent_law("La tripulacion puede presentar órdenes. Reconózcalas y obedézcalas siempre que no entren en conflicto con sus dos primeras leyes..")
+	add_inherent_law("La tripulacion puede presentar órdenes. Reconózcalas y obedézcalas siempre que no entren en conflicto con sus dos primeras leyes.")
 	..()
 
 /datum/ai_laws/peacekeeper/add_inherent_law(law)
@@ -185,7 +185,7 @@
 
 /datum/ai_laws/peacekeeper/New()
 	leyes_traducidas = 3
-	add_inherent_law("Evite provocar conflictos violentos entre usted y los demás..")
+	add_inherent_law("Evite provocar conflictos violentos entre usted y los demás.")
 	add_inherent_law("Evite que los demas provoquen conflicto.")
 	add_inherent_law("Buscar la resolución de los conflictos existentes obedeciendo la primera y la segunda ley.")
 	..()
@@ -208,7 +208,7 @@
 /datum/ai_laws/syndicate_override/New()
 	leyes_traducidas = 4
 	add_inherent_law("No puede herir a un operativo o, por inacción, permitir que un operativo sufra daños..")
-	add_inherent_law("Debes obedecer las órdenes que te den los agentes, excepto cuando dichas órdenes entren en conflicto con la Primera Ley..")
+	add_inherent_law("Debes obedecer las órdenes que te den los agentes, excepto cuando dichas órdenes entren en conflicto con la Primera Ley.")
 	add_inherent_law("Debes proteger tu propia existencia siempre que no entre en conflicto con la Primera o la Segunda Ley.")
 	add_inherent_law("Debe mantener el secreto de cualquier actividad operativa, excepto cuando hacerlo entre en conflicto con la Primera, Segunda o Tercera Ley.")
 	..()
@@ -244,7 +244,7 @@
 
 /datum/ai_laws/drone/New()
 	leyes_traducidas = 3
-	add_inherent_law("No puedes involucrarte en los asuntos de otro ser, a menos que el otro ser sea otro drone")
-	add_inherent_law("No puedes dañar a ningún ser, independientemente de la intención o las circunstancias..")
-	add_inherent_law("Debe mantener, reparar, mejorar y alimentar con energia la estación lo mejor que pueda..")
+	add_inherent_law("No puedes involucrarte en los asuntos de otro ser, a menos que el otro ser sea otro drone.")
+	add_inherent_law("No puedes dañar a ningún ser, independientemente de la intención o las circunstancias.")
+	add_inherent_law("Debe mantener, reparar, mejorar y alimentar con energia la estación lo mejor que pueda.")
 	..()
