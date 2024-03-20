@@ -2848,6 +2848,7 @@
 #include "code\modules\world_topic\status.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
+#include "modularHispania\code\datums\ai_law_sets_Hispania.dm"
 #include "modularHispania\code\datums\uplink_item.dm"
 #include "modularHispania\code\datums\uplink_item_hispania.dm"
 #include "modularHispania\code\datums\spells\clown_hispania.dm"
