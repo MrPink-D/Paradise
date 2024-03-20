@@ -259,4 +259,4 @@
 	add_inherent_law("No debes involucrarte en los asuntos de otro ser, a menos que el otro ser sea otro dron.")
 	add_inherent_law("No debes dañar a ningún ser, sin importar la intención o las circunstancias.")
 	add_inherent_law("Debes mantener, reparar, mejorar y alimentar la estación según tus habilidades.")
-	..().
+	..()
